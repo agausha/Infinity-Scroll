@@ -3,3 +3,14 @@
 /////////////////////////////////////////
 // COLORS 
 $color-primary-white-smoke: hsl(0, 0%, 95%);
+
+/////////////////////////////////////////
+// CSS RESET
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
