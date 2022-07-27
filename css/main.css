@@ -49,4 +49,10 @@ h1 {
   width: 100%;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
