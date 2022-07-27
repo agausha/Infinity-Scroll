@@ -26,5 +26,6 @@ h1 {
 
 .loader {
   position: fixed;
+  top: 0;
 }
 /*# sourceMappingURL=main.css.map */
