@@ -9,4 +9,5 @@ let photosArray = [];
 let isInitialLoad = true;
 
 // Unsplash API
+let picCount = 5;
 const apiKey = 'NIlze4okNpOKbHbn0mD1b6j3HdLuWyM8_MrkJwCkJIw';
