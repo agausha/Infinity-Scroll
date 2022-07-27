@@ -21,5 +21,6 @@ function updateAPIURLWithNewCount (picCount) {
 async function getPhotos() {
   try {
     const response = await fetch(apiUrl);
+    photosArray = await response.json();
   } catch (error) {}
 }
