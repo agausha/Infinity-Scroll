@@ -6,3 +6,4 @@ let ready = false;
 let imagesLoaded = 0;
 let totalImages = 0;
 let photosArray = [];
+let isInitialLoad = true;
