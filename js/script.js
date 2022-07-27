@@ -18,4 +18,6 @@ function updateAPIURLWithNewCount (picCount) {
 }
 
 // Get photos from Unsplash API
-async function getPhotos() {}
+async function getPhotos() {
+  try {} catch (error) {}
+}
