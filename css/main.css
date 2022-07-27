@@ -32,4 +32,8 @@ h1 {
   right: 0;
   background: rgba(255, 255, 255, 0.8);
 }
+
+.loader img {
+  position: fixed;
+}
 /*# sourceMappingURL=main.css.map */
