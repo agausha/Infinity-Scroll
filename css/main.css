@@ -11,4 +11,8 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
 /*# sourceMappingURL=main.css.map */
