@@ -35,5 +35,6 @@ h1 {
 
 .loader img {
   position: fixed;
+  top: 50%;
 }
 /*# sourceMappingURL=main.css.map */
