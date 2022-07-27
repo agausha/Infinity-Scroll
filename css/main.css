@@ -54,5 +54,8 @@ h1 {
   h1 {
     font-size: 1.5rem;
   }
+  .image-container {
+    margin: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
