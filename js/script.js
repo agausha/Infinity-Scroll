@@ -16,3 +16,6 @@ let apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=$
 function updateAPIURLWithNewCount (picCount) {
   apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${picCount}`;
 }
+
+// Get photos from Unsplash API
+async function getPhotos() {}
