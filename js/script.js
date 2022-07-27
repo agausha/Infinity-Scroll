@@ -7,3 +7,6 @@ let imagesLoaded = 0;
 let totalImages = 0;
 let photosArray = [];
 let isInitialLoad = true;
+
+// Unsplash API
+const apiKey = 'NIlze4okNpOKbHbn0mD1b6j3HdLuWyM8_MrkJwCkJIw';
