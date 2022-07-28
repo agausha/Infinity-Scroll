@@ -17,6 +17,9 @@ function updateAPIURLWithNewCount (picCount) {
   apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${picCount}`;
 }
 
+// Check if all images were Loaded
+function imageLoaded() {}
+
 // Get photos from Unsplash API
 async function getPhotos() {
   try {
@@ -26,5 +29,9 @@ async function getPhotos() {
       updateAPIURLWithNewCount(30);
       isInitialLoad = false;
     }
-  } catch (error) {}
+  } catch (error) {
+    // Catch Error Here
+  }
 }
+
+
