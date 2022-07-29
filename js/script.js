@@ -47,6 +47,8 @@ function displayPhotos() {
     });
     // Event Listener, check when each image loaded is finished
     img.addEventListener('load', imageLoaded); 
+     // Put <img> inside <a>, then put both inside imageContainer Element
+     item.appendChild(img);
   })
 }
 
