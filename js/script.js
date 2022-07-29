@@ -31,7 +31,10 @@ function displayPhotos() {
   imagesLoaded = 0;
   totalImages = photosArray.length;
   // Run function for each object in photosArray
-  photosArray.forEach((photo) => {})
+  photosArray.forEach((photo) => {
+    // Create <a> to link to full photo
+    const item = document.createElement('a');
+  })
 }
 
 // Get photos from Unsplash API
