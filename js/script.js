@@ -29,6 +29,7 @@ function imageLoaded() {
 // Create Elements for Links and Photos, Add to DOM
 function displayPhotos() {
   imagesLoaded = 0;
+  totalImages = photosArray.length;
 }
 
 // Get photos from Unsplash API
