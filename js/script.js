@@ -26,6 +26,9 @@ function imageLoaded() {
   }
 }
 
+// Helper Function to Set Attributes on DOM Elements
+function setAttributes(element, attributes) {}
+
 // Create Elements for Links and Photos, Add to DOM
 function displayPhotos() {
   imagesLoaded = 0;
