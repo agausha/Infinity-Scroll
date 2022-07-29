@@ -26,6 +26,9 @@ function imageLoaded() {
   }
 }
 
+// Create Elements for Links and Photos, Add to DOM
+function displayPhotos() {}
+
 // Get photos from Unsplash API
 async function getPhotos() {
   try {
