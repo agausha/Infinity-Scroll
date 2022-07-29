@@ -29,7 +29,7 @@ function imageLoaded() {
 // Helper Function to Set Attributes on DOM Elements
 function setAttributes(element, attributes) {
   for (const key in attributes) {
-    element.setAttributes(key, attributes[key]);
+    element.setAttribute(key, attributes[key]);
   }
 }
 
@@ -65,6 +65,7 @@ async function getPhotos() {
   try {
     const response = await fetch(apiUrl);
     photosArray = await response.json();
+    displayPhotos();
     if (isInitialLoad) {
       updateAPIURLWithNewCount(30);
       isInitialLoad = false;
@@ -80,7 +81,7 @@ window.addEventListener('scroll', () => {
     ready = false;
     getPhotos();
   }
-})
+});
 
 // On Load
 getPhotos();
