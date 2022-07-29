@@ -27,7 +27,9 @@ function imageLoaded() {
 }
 
 // Create Elements for Links and Photos, Add to DOM
-function displayPhotos() {}
+function displayPhotos() {
+  imagesLoaded = 0;
+}
 
 // Get photos from Unsplash API
 async function getPhotos() {
