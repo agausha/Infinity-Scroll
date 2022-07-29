@@ -45,6 +45,8 @@ function displayPhotos() {
       alt: photo.alt_description,
       title: photo.alt_description,
     });
+    // Event Listener, check when each image loaded is finished
+    img.addEventListener('load', imageLoaded); 
   })
 }
 
