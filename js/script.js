@@ -38,6 +38,8 @@ function displayPhotos() {
       href: photo.links.html,
       target: '_blank',
     });
+    // Create <img> for photo
+    const img = document.createElement('img');
   })
 }
 
