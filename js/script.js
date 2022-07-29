@@ -49,7 +49,8 @@ function displayPhotos() {
     img.addEventListener('load', imageLoaded); 
      // Put <img> inside <a>, then put both inside imageContainer Element
      item.appendChild(img);
-  })
+     imageContainer.appendChild(item);
+  });
 }
 
 // Get photos from Unsplash API
