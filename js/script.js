@@ -18,7 +18,9 @@ function updateAPIURLWithNewCount (picCount) {
 }
 
 // Check if all images were Loaded
-function imageLoaded() {}
+function imageLoaded() {
+  imagesLoaded++;
+}
 
 // Get photos from Unsplash API
 async function getPhotos() {
