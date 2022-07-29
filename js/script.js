@@ -34,6 +34,10 @@ function displayPhotos() {
   photosArray.forEach((photo) => {
     // Create <a> to link to full photo
     const item = document.createElement('a');
+    setAttributes(item, {
+      href: photo.links.html,
+      target: '_blank',
+    });
   })
 }
 
