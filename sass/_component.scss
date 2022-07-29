@@ -34,6 +34,12 @@ h1 {
 }
 
 // Medial Queries
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1.5rem;
