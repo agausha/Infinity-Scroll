@@ -8,17 +8,16 @@
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Bebas Neue', sans-serif;
-  background: #f2f2f2;
+  font-family: "Bebas Neue", sans-serif;
+  background: hsl(0deg, 0%, 95%);
 }
 
 h1 {
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -33,19 +32,16 @@ h1 {
   right: 0;
   background: rgba(255, 255, 255, 0.8);
 }
-
 .loader img {
   position: fixed;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .image-container {
   margin: 10px 30%;
 }
-
 .image-container img {
   width: 100%;
   margin-top: 5px;
@@ -56,7 +52,6 @@ h1 {
     font-size: 1.3rem;
   }
 }
-
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1.5rem;
@@ -64,5 +59,4 @@ h1 {
   .image-container {
     margin: 10px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
